@@ -1,0 +1,37 @@
+Tags HTML:
+-
+Head: > cabeçario do site
+body: > corpo = conteúdo do site
+h1: > Tag para título grande
+p: > Tag para paragrafo 
+hr: > Tag para uma linha horizontal 
+br: > Quebra de linha para separar frases do mesmo parágrafo
+address: > forma para endereços dentro de um parágrafo
+style: > body { > background-color > } > </style>: Para alterar a cor de 
+fundo do site e demais opções no corpo do site através da 
+configuração principal <head>.
+Negrito com semântica: Tag -> <strong>
+Italico com semântica: Tag -> <em>
+Para selecionar tags de maneira mais praticas para textos já feitos
+CTRL + Shift + P -> selecionar a opção Wrap with abbreviation ou 
+envelope com abreviatura.
+-
+Símbolos especiais:
+&lt; e &gt; > utilizados para que não seja formado tags(&lt; = < / &gt; = >)
+&reg; > marca registrada
+&copy; > copyright
+&trade; > TM = marca registrada 
+&uarr; > uma setinha para cima
+-
+Emoji: buscar no site: emojipedia
+&#x1f596; > emoji aleatorio
+-
+------------------------------------------------
+Site para imagens sem direitos autorais: 
+unslapsh.com
+pexels.com
+------------------------------------------------
+Imagens para web: 
+JPGE e PNG;
+JPGE: imagens grandes sem compactação
+PNG: imagens transparentes com compactação

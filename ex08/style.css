@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+
+p { text-align: justify; }
+body { 
+    background-image: linear-gradient(to left,#3b256e, #5A2C74, #662EB4, #A03FED, #FB436B )
+   
+}
+main{
+    background-color: whitesmoke;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #81253969;
+    padding: 10px;
+    margin: auto;
+}
+p {
+    color: black;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+h1, h2{
+    text-align: center;
+}

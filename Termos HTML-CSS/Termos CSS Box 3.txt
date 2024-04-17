@@ -1,0 +1,73 @@
+Tags de agrupamento:
+<div> -> box-level
+<span> -> inline-level
+--------------------------------------------------------------------------
+Grouping Tags:
+<header> -> Topo do Site
+<main> -> Conteúdo principal do site
+<footer> -> Rodapé do site
+<nav> -> Menu do site
+--------------------------------------------------------------------------
+Exemplo de style abaixo com tudo já aprendido:
+--------------------------------------------------------------------------
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: ghostwhite;
+    margin: 0px;
+}
+header {
+    width: 150px;
+    background-color: yellowgreen;
+    padding: 10px;
+    margin: 10px;
+}
+main { 
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+nav {
+    background-color: lightblue;
+    padding: 3px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.336);
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+article > aside {
+    background-color: lightgoldenrodyellow;
+}
+article {
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+li > a:hover {
+    text-decoration: underline;
+}
+footer > p {
+    margin: 4px;
+}
+
+--------------------------------------------------------------------------
+box-shadow: criar sombras nas caixas e configurar a transparencia para ter aspecto de sombra.
+
+

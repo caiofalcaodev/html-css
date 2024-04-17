@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'greatvibes';
+    src: url('fonts/GreatVibes-Regular.ttf') format(ttf);
+}
+
+body {
+    background-color: rgba(142, 189, 174, 0.795);
+    font-family:'greatvibes', sans-serif;
+}
+h1#principal{ 
+    text-align: center;
+    background-color: rgb(6, 150, 30);
+    color: whitesmoke;
+}
+h1 { 
+    color:rgb(6, 150, 30);
+}
+p {
+    text-align: justify;
+}
+.basico {
+    color: green;
+}
+.inter{
+    color: yellow;
+}
+.avanced {
+    color: red;
+}

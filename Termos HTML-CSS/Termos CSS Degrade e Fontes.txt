@@ -1,0 +1,61 @@
+Degradê com CSS:
+style -> body { background-image(to right, white, blue); }
+                                (to left)
+                                (to top)
+                                (to bottom)  
+----------------------------------------------------------------------------------
+ Configuração Global das CSS -> * { height: 100%; } = Utilizado para selecionar 
+o corpo do site inteiro dentro da tag "Style", dessa forma colorindo o site todo. 
+backgrouend-attachment: fixed; -> Para que não tenha rolagens na página, fixar 
+a cor na página inteira.
+Tag -> <main> (uma dive incluindo o conteúdo principal do site)
+Anatomia dos Tipos: 
+altura das maiúsculas: altura total das maiúsculas
+altura minúsculas: baseado no "x" minúsculo
+ascendente: sobra das letras para cima
+descendente: sobra das letras para baixo
+font-family -> para font de todos os tipos, incluir a font "sans-serif" ou "serif" 
+para conter fontes genericas por segurança para o navegador
+-----------------------
+Medidas Absolutas:
+cm: centimetro
+mm: milimetro
+in: polegada
+px: pixel
+pt: ponto
+pc: paica
+-----------------------
+Medidas Relativas:
+em: Tamanho atual da fonte
+ex: Altura X
+rem: Relativo ao rut
+vw: relativo a viewport 
+vh: altura da viewport
+-----------------------
+Recomendação da W3C: px e em
+-
+Exemplo para configurar fonte e o tamanho dentro de um site:
+body {
+     font-family: Arial;
+     font-size: 16px;
+}
+-----------------------
+16px é igual a 1em com relação a tamanho da fonte.
+-----------------------
+Peso da fonte: 
+font-weight: ;
+lighter: fonte bem leve
+normal: fonte padrão
+bold: um negrito padrão
+bolder: um negrito pesado
+----------------------- 
+Para configurar a fonte em Italico:
+font-style: italic;
+Para sublinhar:
+text-decoration: underline;
+-----------------------
+Para simplificar e aplicar fontes para o texto desejado "shorthand:
+Ordem correta:
+font-style -> font-weight -> font-size -> font-family;
+Exemplo de execução:
+font: italic bolder 1em arial, sans-serif;

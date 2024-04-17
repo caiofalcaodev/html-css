@@ -1,0 +1,16 @@
+Link em Sites:
+-
+Maneira de incluir links dentro do site e encaminhar para uma nova guia:
+<a href="https://onepiece.fandom.com/pt/wiki/Monkey_D._Luffy" 
+target="_blank" rel="external"> Wiki exemplo para Luffy</a></h2>
+Rel -> rel="external: para páginas externas 
+-> rel="next": para páginas do próprio site
+-> rel="previous": para retornar a página anterior dentro do próprio site.
+-> rel="nofollow" para páginas a fora no qual não estou recebendo patrocionio 
+Caso a page esteja dentro de alguma página, o link para retorno deverá conter 
+"../" antes da página nomeada.
+-
+Link para Download -> procedimento padrão para link, selecionar arquivo como no exemplo abaixo: 
+<a href= "ctrl + space" download="meulivro.pdf" 
+type="application/pdf">Baixaro Livro em PDF</a>
+iana.org/assingments/mediatypes -> link para encontrar "types" dos arquivos para detalhar no link de download.

@@ -1,0 +1,7 @@
+Variaveis CSS:
+Para adicionar uma variavel em CSS: 
+:root{
+   --cor0:#c5ebd6
+}
+------------------------------------------------------------------------
+Utilizando a tag ":root{ }" e adicionar "--" antes de nomear a var. 

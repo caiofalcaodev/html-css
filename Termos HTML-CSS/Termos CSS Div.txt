@@ -1,0 +1,88 @@
+div { 
+    background-color: black
+    text-align: center 
+    height: 200px; 
+    width: 200px;
+}
+height -> altura
+width -> largura 
+- Usado dentro da div para definir a altura e largura da box.
+-------------------------------------------------------------------------------------------------------
+Pseudo Classe está relacionado com um elemento ou com uma classe.
+Exemplo:
+
+div:hover {
+    background-color: yellow/
+}
+-
+div:hover -> para adicionar cor ao passar o mouse por cima.
+-
+Mais exemplos de hover:
+  <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+        }
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do Exemplo</p>
+</body>
+-------------------------------------------------------------------------------------------------------
+Resumo:
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = clildren
+-------------------------------------------------------------------------------------------------------
+Pseudo Class: 
+- hover: Utilizado para interação com o caractere ou box utilizada no site. 
+- active: Utilizado para algo clicavel.
+- before: Utilizado para mostrar algo antes do link por exemplo.
+- after: Utilizado para mostrar algo depois do link por exemplo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

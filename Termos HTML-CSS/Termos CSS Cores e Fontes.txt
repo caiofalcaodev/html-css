@@ -1,0 +1,50 @@
+Estilos Externos
+Dentro da seleção <head> 
+utiliza <style h1, h2, h3, p {color: white} </style>
+para mudar a fonte das letras disponiveis no site. 
+font-family -> para alterar a fonte de todas as letras no próprio site
+<style>p {text-align: justify;}</style> -> Para justificar os paragrafos
+Font-size: 1.2; -> Utilizado para aumentar ou diminuir as fontes alocadas.
+-
+<style> p {text-align: justify;} </style>
+    <style> h1, h2, p {color: rgb(255, 255, 255)} </style>
+    <style> h1, h2 {background-color: red;} p {background-color: blue;}</style>
+-
+Exemplo de código para Styles: justificando, 
+marcando com cores, alterando tamanhos e mostrando uma boa organização. Um Clean Code 
+-
+CTRL + Clique em cima de um arquivo que não exista. Cria uma nova página por exemplo. 
+<link rel="stylesheet" href="style.css"> -> 
+Utilizado para criar uma aba dentro do site fora do HTML, dessa forma generalizando os estilos dentro do site. 
+Apos abrir a CSS externa para estilos, criar uma regra "@charset "UTF-8";" para conseguir utilizar acentuações dentro da página "style.css".
+Toda regra inicia-se com "@" para formalizar dentro do código. 
+<style="text-align: right;"> -> tag utilizada para mover algo para direita.
+-
+Harmonia de Cores/Círculo Cromático:
+Cores primárias: amarelo, azul e vermelho
+Cores secundarias: laranja, violeta e o verde
+Cores terciárias: amarelo-esverdeado, amarelo-alaranjado, vermelho-alaranjado, 
+vermelho-arroxeado, azul-arroxeado, azul-esverdeado.
+Total de 12 cores no circulo cromático.
+Cores frias: lado azul e verde
+Cores quentes: lado amarelo e vermelho
+-
+Cores Complementares: Violeta e amarelo, vermelho e verde, azul e laranja.
+Cores Análogas: Cores vizinhas
+Cores Análogas + Complementares: Cores vizinhas + cores acima.
+Cores Análogas Relacionadas: Duas cores vizinhas pulando uma cor ao lado para a terceira cor.
+Cores Intercaladas: Pulando de cor em cor ao lado.
+Cores Triádicas: Pulando três cores para somar três cores.
+Cores em Quadrado: Pulando duas cores para somar quatro cores.
+Cores: Tetrádicas: cor complementares se cruzando formando um retângulo 
+Monocromia: Escolher uma cor e alterar saturação e brilho; "Degradê"
+-
+Sites para paleta de cores: 
+https://color.adobe.com/pt/create/color-wheel 
+(Para montar paleta de cores)
+https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+(Simular um site com a paleta escolhida)
+https://coolors.co/f7ebec-ddbdd5-ac9fbb-59656f-1d1e2c
+(Paleta de cores baseada em minha escolha)
+
+

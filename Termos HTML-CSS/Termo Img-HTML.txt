@@ -1,0 +1,26 @@
+Tag para imagens: 
+Img > para gerar alguma imagem inclusa na pasta do site.
+PS: Também é possivel utilizar de link-url de imagens 
+retiradas da web para aprensentar dentro da tag img.
+Tag -> img para gerar uma imagem padrão 
+-----------------------------------------------------------------------------------
+Tag -> <picture>
+<source media="(max-width: 750px)" srcset="image/imgP.png" type="image/png">
+<source media="(max-width: 1050px )" srcset="image/imgM.png" type="image/png">        
+<img src="image/imgG.png" alt="imagem flexível">
+    </picture>
+-----------------------------------------------------------------------------------
+Tags -> Picture + Source 
+Tag -> <link favicon> para adicionar uma favicon, icone do seu site.
+-----------------------------------------------------------------------------------
+Centralizar uma imagem:
+-
+<div class="container">
+<img blablabla> 
+</div>
+CSS: 
+.container {
+      text-align: center;
+      border: 1px solid;
+}
+-----------------------------------------------------------------------------------

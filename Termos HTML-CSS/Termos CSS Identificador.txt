@@ -1,0 +1,16 @@
+Utilizando o seletor: "id" e dando um valor dentro da tag "<h1>", você consegue 
+marcar apenas essa variavel para uma função, como centraliza-la ou justificar o texto marcado.
+Exemplo: 
+No HTML:
+<h1 id="principal">Criando sites com HTML e CSS</h1>
+Nas CSS: 
+h1#principal {
+            text-align: center;
+}
+----------------------------------------------------------------------------------------------------
+Em HTML: "id" =  Em CSS: "#"
+Em HTML é "class" = em CSS é: "."
+-
+class = utilizado para classificar identificadores, dessa forma utilizando em 
+vários títulos. 
+

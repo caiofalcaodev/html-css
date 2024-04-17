@@ -1,0 +1,31 @@
+ShortHands:
+border-width: 10px
+border-style: solid
+border-color: darklategray
+shorthand:
+border: 10px solid darklategray;
+-----------------------------------------------------------------------------
+padding-top: 10px;
+padding-right: 10px
+padding-bottom: 10px
+padding-left: 10px
+shothand: 
+         top-right-bottom-left
+padding: 10px  10px 10px 10px
+- 
+Se colocar apenas dois valores vai definir exemplo:
+      top/bottom    right/left
+padding: 10px          20px
+-----------------------------------------------------------------------------
+        top-right-bottom-left
+margin: 20px 40px 20px 40px
+-
+Se caso queira centralizar a box 
+         top   ---  bottom ---
+margin:  20px  auto  20px  auto
+-----------------------------------------------------------------------------
+        10px-solid--color
+outline: spx dashed red
+-----------------------------------------------------------------------------
+Caso vá alterar o display da box (level/inline) é só adicionar: 
+display: inline / display: block

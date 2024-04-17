@@ -1,0 +1,41 @@
+PARTE 2: 
+TAGS HTML
+-
+Texto marcado: Tag -> <mark>
+Código fonte: Tag -> <code> compactar a fonte para destacar 
+alguma frase ou palavra, normalmente utilizada para ver códigos.
+Pré formatado: Tag -> <pre> utilizado para manter códigos em suas 
+estruturas amostras no site.
+Citação Simples / sem quebra: Tag -> <q> para colocar aspas em frases 
+e palavras sendo citações.
+Citação Completa / com quebra: <blockquote> -> é uma tag que mostra de 
+forma clara em um site uma citação formatada. Adicionando a palavra 
+"cite" dentro da tag, exemplo: <blockquote cite= link para citação>, 
+consegue ter o link para onde foi localizado a citação.
+Tag -> <abbr> utilizada para deixar tradução ou significado de siglas 
+lockados dentro do site.
+Tag -> <ol> utilizado para ordernar uma lista. 
+Tag -> <li> para incluir um item dentro da lista em cada posição.
+<ol> -> Para incluir o tipo de listagem dentro da tag "<ol>" é so 
+incluir a formatação da lista utilizando 
+(Type "ex" = 1: númericos, A:alfabeto maiusculo, a: alfabeto minusculo, I: números romanos)
+Tag -> <ul> utilizado para criar uma lista não ordenada, somente com itens de forma aleatoria.
+<ul> -> Para incluir a forma de disco ou outras utiliza (Type "disc", "square" ou "circle".)
+- Da pra utilizar lista dentro de lista dessa forma transformando num aninhamento. 
+Ex:
+<ul>Lista
+   <li>um
+      <ol type "a">
+      <li>um e meio
+      <li>um e setenta e cinco
+      </ol>
+   <li>dois
+</ul>
+-
+Segurando a tecla Alt e selecionando com o cursor do mouse da pra corrigir tags simultaneamente.
+-
+Lista de Definições:
+<dl> -> utilizado para criar uma lista de definições.
+<dd> -> utilizado dentro de <dl> para titulo da lista
+<dt> -> utilizado dentro de <dd> para descrição do titulo da lista.
+-

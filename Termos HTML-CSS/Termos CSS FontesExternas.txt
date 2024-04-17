@@ -1,0 +1,39 @@
+Fontes Externas Baixadas:
+Site para fontes: https://www.dafont.com
+Realizar download da fonte e incluir dentro da pasta do site. 
+No VS Code utilizar dentro da tag style um seletor especial "@font-face {
+                                                                font-family: ;
+                                                                src: url('love larry.otf') format();
+                                                             } 
+format: 
+- opentype (otf)
+- truetype(ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg
+---------------------------------------------------------------------------------
+Exemplo dentro da <head>: 
+<style>
+        @font-face {
+            font-family: ;
+            src: url('Masterday.otf')format('opentype'), 
+            url('Masterday.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+</style>
+---------------------------------------------------------------------------------
+Font Ninja: para detectar fonts de sites se for um texto
+-
+whatfontis.com-------------| 
+                           |-> para detectar fonts de imagens 
+fontsquirrel.com-----------| 
+---------------------------------------------------------------------------------
+text-align:(justify): Para justificar o texto
+           (center): Centralizar o texto
+           (left/right) Mover para esquerda ou direita;
+text-indent: 20px; -> Utilizado para aumentar o tamanho do paragrafo 
+---------------------------------------------------------------------------------
+
+
+             

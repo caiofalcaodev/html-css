@@ -1,0 +1,62 @@
+Shorthand:
+border-radius: 10px 20px 30px 40px
+-----------------------------------------------------------------------------------------------
+Borda Decorada:
+border: 20px solid black;
+padding: 10px;
+border-image-source: url ('borda.png');
+border-image-slice: 20;
+border-image-repeat: repeat/streat;
+-----------------------------------------------------------------------------------------------
+Exemplo para responsividade do site com imagens e textos adaptaveis a várias telas:
+
+main {
+    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+main img {
+    width: 100%;
+}
+-----------------------------------------------------------------------------------------------
+Centralizar imagem e adaptar o seu tamanho, tag "display" transforma a imagem num bloco:
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+-----------------------------------------------------------------------------------------------
+Exemplo para um menu descente com até mesmo delei para Hover:
+nav {
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.178);
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+nav > a:hover{
+    background-color: var(--cor3);
+    color:darkgreen;
+}
+-----------------------------------------------------------------------------------------------
+"lisat-style-position" = para posicionar os icones da lista para dentro da div. 
+Exemplo de edição de lista: 
+aside {
+    background-color: var(--cor1);
+    border-radius: 5px 5px;
+    padding: 10px;
+}
+
+aside > ul {
+    list-style-position: inside;
+}
+-----------------------------------------------------------------------------------------------
+caso colocar "::after" o emoji ou imagem adicionada será encaixado apos o paragrafo

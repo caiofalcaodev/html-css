@@ -1,0 +1,64 @@
+Modelo de Caixas/Box Model:
+-
+Altura: height
+Largura: width
+Borda: border
+Preenchimento: Dentro da box: padding / Fora da borda: margin
+Contorno: outline
+----------------------------------------------------------------------------------------------
+box-level: Após um paragráfo ocupa a area para largura inteira e quebra a linha.
+inline-leve: Após um paragráfo ocupa apenas uma curta area e não quebra a linha.
+-----------------------------------------------------------------------------------
+Box-Level: <div> / <h1>-<h6> / <p> / <main> / <header> / <nav> / <article> / <aside>
+<footer> / <form> / <video> 
+-
+Inline-Level: <span> / <a> / <code> / <small> / <strong> / <em> / <sup> - <sub> / <label> /
+<button> / <input> / <select> 
+----------------------------------------------------------------------------------------------
+-
+user-agent: navegador
+----------------------------------------------------------------------------------------------
+Exemplo para caixas e bordas.
+ <style>
+        h1 {
+            background-color: lightcyan;
+            height: 100px;
+            width: 380px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgray;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            margin: auto
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: salmon;
+        }
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+                
+        }
+    </style>
+----------------------------------------------------------------------------------------------
+height: altura da caixa
+width: largura da caixa
+border-width: espessura da caixa
+border-style: caixa solida
+border-color: cor da caixa
+padding-top/right/bottom/left: preenchimento por dentro da caixa
+margin: auto -> centralizar caixa 
+margin-top/right/bottom/left: preenchimento por fora da caixa
+outline: traços entre a margin e border
+
+
+
+
+
+
+
+
+

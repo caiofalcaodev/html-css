@@ -1,0 +1,30 @@
+Áudios:
+-
+<audio autoplay="autoplay" controls="controls">
+ <source src="midia/takemeout.mp3" type="audio/mp3">
+</audio>
+
+Tag -> <audio> 
+- Utilizada para incluir áudios ao site, em conjunto com 
+(<audio autoplay="autoplay" controls="controls">);
+para gerar o dispositivo para reprodução. De acordo com o exemplo acima.
+-
+Videos:
+-
+Tag -> (<video src="midiavideo/video (720p).mp4" 
+width="500" controls>video do espaço</video>);
+ Utilizado para incluir videos ao site, dentro da tag <video> é utilizado width="500" 
+para diminuir o tamanho do video para que não ocupe a página inteira por exemplo. 
+ Tag "controls" para incluir os controles para reprodução tanto de video como para áudios.
+-
+ Tag abaixo é utilizado para incluir vários tipos de formatos de videos, dessa forma o 
+vídeo vai ser reproduzido com sucesso em todos os sites.
+Vai ser incluido todo tipo de midia por exemplo mp4.
+<video width="500" poster="imagens/ace50.png" controls>
+       <source src="midiavideo/video (720).mp4" type"video/mp4">
+</video>
+Tag -> "poster" é utilizada para incluir capa nos videos, ao reproduzir 
+-
+Para incluir um vídeo do YouTube para dentro do site basta cópiar o incorporar 
+disponivel na opção compartilhar do video dentro do youtube. Dessa forma vai ser 
+utilizado os dados do próprio youtube. 
