@@ -31,7 +31,7 @@ header {
 header img { 
     display: block;
     border-radius: 65%;   
-    padding-left: 7px;
+    padding-left: 10px;
 }
 
 header a {
@@ -56,7 +56,7 @@ nav a {
 }
 nav > a:hover{
     background-color: rgba(11, 141, 6, 0.192);
-    color: #5bdf0f;
+    color: #fffb00;
 }
 main {
     background-color: white;
