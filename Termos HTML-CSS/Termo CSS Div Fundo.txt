@@ -20,4 +20,7 @@ div#q3 {
 }
 ------------------------------------------------------------------------------------------------------------
 Exemplo a cima mostra a inclusão de "id" identificadores para div, e a inclusão de 
-background-image: url("img/pattern001.png"), para determinar uma imagem como fundo da div. 
+background-image: url("img/pattern001.png"), para determinar uma imagem como fundo da div.
+background-repeat: (no-repeat, repeat, repeat-(x/y): utilizado para determinar repetições da imagens ou direção da repetição
+background-size: 100px 100px; (Utilizado para definir o tamanho da img)
+background-position: left center / center center / right center: determinar a posição, ancoragem da imagem dentro da div.    
