@@ -35,4 +35,52 @@ Exemplo:
       background-size: cover
   {
 (background-size não entra na shorthand, deve ser utilizado por fora.
- 
+---------------------------------------------------------------------------------------------------------------------------------------
+Centralização Vertical: 
+Exemplo CSS:
+#container {
+            background-image: url('img/target001.png');
+            background-size: 100% 100%;
+            position: relative;
+            padding: 10px;
+            background-color: yellowgreen;
+            height: 96vh;
+        }
+
+        #conteudo{
+            background-image: url('img/target001.png');
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: blueviolet;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+HTML: 
+	<body>
+    	     <section id="container">
+               <article id="conteudo">
+
+       		</article> 
+
+    	     </section>
+	</body>	
+---------------------------------------------------------------------------------------------------------------------------------------
+position: relative/absolute
+relative: incluido em uma semântica como "section" já vem selecionado como padrão, mas relativo é o que contém uma div.
+absolute: é o que está incluído dentro de um container, dessa forma podendo reposicionar de forma absoluta pela área 
+já que a div está contida.
+Caso a posição da div seja absolute, existe como alterar o top/left/right/bottom 
+de forma pratica e posicionando para onde desejar. uma maneira prática de fazer é usar porcentagens dessa forma: 
+left: 50%;
+top: 50%;
+- Dessa forma o elemento ele alinha 50% dele a esquerda da div section e 50% ao topo da div section ficando exatamente centralizado.
+-
+transform: translate(-50%, -50%);
+- Dessa forma conseguimos mover ainda mais a article, dentro de uma lógica -50% -50% você consegue alinhar 
+exatamente no centro utilizando valores negativos.
