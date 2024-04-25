@@ -1,0 +1,38 @@
+div.quadrado{
+    display: inline-block;
+    border: 1px solid black;
+    width: 300px;
+    
+    border-radius: 5px 5px;
+    height: 300px;
+}
+---------------------------------------------------------------------------------------------------------------------------------------
+div#q1 {
+    background-image: linear-gradient(to right, skyblue, rgb(214, 108, 108)) ;
+}
+
+div#q2 {
+    background-image: linear-gradient( to right, red, blue);
+}
+
+div#q3 {
+   background-image: url('img/pattern001.png');
+}
+---------------------------------------------------------------------------------------------------------------------------------------
+Exemplo a cima mostra a inclusão de "id" identificadores para div, e a inclusão de 
+background-image: url("img/pattern001.png"), para determinar uma imagem como fundo da div.
+background-repeat: (no-repeat, repeat, repeat-(x/y): utilizado para determinar repetições da imagens ou direção da repetição
+background-size: 100px 100px; (Utilizado para definir o tamanho da img)
+background-position: left center / center center / right center: determinar a posição, ancoragem da imagem dentro da div.  
+background-size: auto / cover: Utilizado para manter o tamanho total do papel de parede, dentro da div  
+background-attachment: fixed + background-size: cover = manter um papel de parede fixado e conforme a rolagem do usuário pelo site.
+---------------------------------------------------------------------------------------------------------------------------------------
+Shorthand - Background: 
+  color > image > position > repeat > attachment 
+Exemplo:
+  body {
+      background: black url('image/wallpaper002.jpg') center center no-repeat fixed
+      background-size: cover
+  {
+(background-size não entra na shorthand, deve ser utilizado por fora.
+ 
