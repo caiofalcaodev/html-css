@@ -1,0 +1,17 @@
+Hierarquia de Tabelas (simples)
+<table> </table>
+tableheader 
+tablerow = <tr> = primeira linha
+tabledata = <td> = dados da incluso na minha da tabela
+Exemplo: 
+<table> 
+     <tr>
+	 <td> A1 </td>
+	 <td> B2 </td>
+     </tr>
+</table>
+---------------------------------------------------------------------------------------------------------------------------
+Sintaxe: 
+border-collapse: collapse = para juntar as bordas em conjunto de uma tabela. 
+(border-collapse vem como padrão separate)
+border: 1px solid black = para criar uma borda sólida 

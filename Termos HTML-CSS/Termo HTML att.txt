@@ -1,0 +1,3 @@
+font-variant: small-caps = letras maiusculas com as iniciais maiores. 
+box-shadow: inset = sombras internas 
+background-attachment: fixed = efeito parallax 
