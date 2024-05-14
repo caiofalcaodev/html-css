@@ -15,3 +15,5 @@ Sintaxe:
 border-collapse: collapse = para juntar as bordas em conjunto de uma tabela. 
 (border-collapse vem como padrão separate)
 border: 1px solid black = para criar uma borda sólida 
+---------------------------------------------------------------------------------------------------------------------------
+vertical-align: midle/top/bottom = alinhamento vertical
