@@ -11,6 +11,16 @@ Exemplo:
      </tr>
 </table>
 vertical-align: midle/top/bottom = alinhamento vertical
+tbody > tr:nth-child(2n) {
+        background-color: lightgray;
+    }
+Acima texto zebrado sintaxe: tr:nth-child(2n) = 2n segunda linha
+odd ou even = par ou impar para incluir o efeito zebrado
+-
+colspan = sintaxe utilizada para que um item da tabela ocupe mais colunas.
+Exemplo: <td colspan="2"> B </td>
+rowspan = sintaxe utilizada para que um item da tabela ocupe mais linhas
+Exemplo: <td rowspan="2"> E </td>
 ---------------------------------------------------------------------------------------------------------------------------
 Sintaxe: 
 border-collapse: collapse = para juntar as bordas em conjunto de uma tabela. 

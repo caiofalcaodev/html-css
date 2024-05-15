@@ -10,10 +10,17 @@
     table {
         width: 600px;
         border-collapse: collapse;
+        position: relative;
     }
     td, th {
         border: 1px solid black;
         padding: 7px;
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: rgb(73, 73, 73);
     }
     thead, tfoot {
         background-color: rgb(73, 73, 73);
@@ -27,6 +34,10 @@
         font-weight: bold;
         padding: 5px;
         background-color: rgb(156, 156, 156);
+    }
+    
+    tbody > tr:nth-child(2n) {
+        background-color: lightgray;
     }
     </style>
     <title>Tabelas</title>
