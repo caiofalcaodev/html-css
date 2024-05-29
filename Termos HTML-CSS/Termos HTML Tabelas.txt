@@ -185,3 +185,7 @@ scope: col/row = Determinar título de uma coluna
         </tfoot>
     </table>
 </body>
+---------------------------------------------------------------------------------------------------------------------------
+scope: rowgroup/colgroup/col/row 
+rowgroup/colgroup: quando se tem mais dados abaixo ou ao lado
+row/col: quando se tem apenas um único dado abaixo ou ao lado
