@@ -4,3 +4,12 @@ Ex:
 <p>Acessando o site do 
     <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe>    
     para aprender a programar</p>
+----------------------------------------------------------------------------------------------
+Para definir tamanho e largura de iframes CSS é o meio principal. 
+-
+iframe e barra de rolagem: scrolling="auto/yes/no"
+auto = se caso o conteúdo exceda a altura e largura ele cria barra de rolagem automaticamente 
+yes = mesmo que não exceda a barra é criada
+no = a barra simplesmente não é criada mas pode a ver erro e ser criada mesmo assim
+-
+Borda do iframe pode ser personalizada normalmente pelas CSS pelo padrão border: 1px solid black
