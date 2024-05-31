@@ -13,3 +13,12 @@ yes = mesmo que não exceda a barra é criada
 no = a barra simplesmente não é criada mas pode a ver erro e ser criada mesmo assim
 -
 Borda do iframe pode ser personalizada normalmente pelas CSS pelo padrão border: 1px solid black
+Você também pode colocar seus próprios conteúdos nos iframes.
+-------------------------------------------------------------------------------------------------------------------
+   <ul>
+        <li><a href="páginaexterna/vendas2023.html" target="tela">Primeira Página</a></li>
+        <li><a href="páginaexterna/segundapágina.html" target="tela">Segunda Página</a></li>
+        <li><a href="páginaexterna/terceirapágina.html" target="tela">Terceira Página</a></li>
+    </ul>
+<iframe src="" name="tela"> <p>Infelizmente seu navegador não é compatível com esse formato.</p></iframe>
+é possivel ter interações com suas proprias páginas dentro de iframes através do código acima, nomeando o iframe com a tag <name>
