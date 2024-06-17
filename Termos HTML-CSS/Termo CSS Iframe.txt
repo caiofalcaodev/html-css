@@ -21,4 +21,13 @@ Você também pode colocar seus próprios conteúdos nos iframes.
         <li><a href="páginaexterna/terceirapágina.html" target="tela">Terceira Página</a></li>
     </ul>
 <iframe src="" name="tela"> <p>Infelizmente seu navegador não é compatível com esse formato.</p></iframe>
-é possivel ter interações com suas proprias páginas dentro de iframes através do código acima, nomeando o iframe com a tag <name>
+é possivel ter interações com suas proprias páginas dentro de iframes através do código acima, nomeando o 
+iframe com a tag <name>
+-----------------------------------------------------------------------------------------------------------------------------
+<iframe src="páginaexterna/quartapágina.html" sandbox="sandbox">
+Seu navegador não é compatível com esse formato!</iframe>
+Modelo acima para sandbox: proteção para evitar que outros sites utilizem coleta de dados para seu site.
+referrerpolicy="no-referer" = segurança máxima dentro de um iframe para evitar coleta de dados de sites estrangeiros.
+sandbox="allow-same-origin allow-forms" = essa configuração permite conteúdos de uma mesma origem, mesmo servidor ou conteúdo.
+allow-forms = permitir uso de formulários para da mesma origem. 
+allow-scripts = permite uso de scripts
