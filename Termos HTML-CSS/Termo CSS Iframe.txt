@@ -31,3 +31,5 @@ referrerpolicy="no-referer" = segurança máxima dentro de um iframe para evitar
 sandbox="allow-same-origin allow-forms" = essa configuração permite conteúdos de uma mesma origem, mesmo servidor ou conteúdo.
 allow-forms = permitir uso de formulários para da mesma origem. 
 allow-scripts = permite uso de scripts
+---------------------------------------------------------------------------------------------------------------------------------
+também é possível utilizar iframe para google maps, waze e até mesmo alguma apresentação de slides no docs.
