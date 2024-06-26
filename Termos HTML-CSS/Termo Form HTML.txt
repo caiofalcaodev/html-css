@@ -20,3 +20,11 @@ maxlength: tamanho máximo
 size="20": para alterar o tamanho da caixa e não incluencia no número de caracteres informado na caixa.
 placeholder="nome do usuário": dica para o usuário 
 autocomplete: dentro de um input pode se caracterizar para o que a caixa pede.
+input:number: Somente aceita números, dentro dessa section "input" existem várias variáveis.
+-------------------------------------------------------------------------------------------------------------------------------
+<input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.5">
+Acima classificando números para o pretexto de notas para uma média.
+min/max: para caracteres númericos dentro de um formulário.
+value: possível também determinar um valor para mês ou digito já preenchido.
+<input type="date" name="dia" id="idia"> 
+Acima controle para date.
