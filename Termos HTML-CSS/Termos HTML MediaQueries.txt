@@ -2,3 +2,30 @@ Termos HTML MediaQueries
 -
 Formatos para adaptar sites a diferentes tamanhos de tela e 
 isso vai tanto de TV a impressão a papel.
+-------------------------------------------------------------------------------------------------
+<link rel="stylesheet" href="estilos/tela.css" media="screem">
+link CSS para tela, também utilizado como media="screem"
+<link rel="stylesheet" href="estilos/impressora.css" media="print">
+Link CSS para impressora, também utilizado como media="print"
+Media Types acima como exemplo, da pra utilizar media="all" para unir a todo o código.
+-------------------------------------------------------------------------------------------------
+Separar as CSS em pastas diferentes para que seja mais fácil de localizar
+os códigos e mantenha uma praticidade em qualquer tipo de manutenção.
+-
+article::after {
+    content: 'Esse artigo foi impresso através do site www.github.io/caiofalcaodev';
+}
+Deixar um comentário depois do article ou outras tag
+-------------------------------------------------------------------------------------------------
+Media Features in CSS
+-
+Media Features não tem parênteses comparado a MediaTypes
+Exemplo de como informar um MediaFeature:
+<link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation:portrait)">
+<link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+Orientation para orientar de acordo com a posição se visto para um smartphone
+media="screen and (orientation: landscape) para paisagem
+media="screen and (orientation:portrait) para retrato
+
+
+
