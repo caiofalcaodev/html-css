@@ -1,0 +1,41 @@
+<form action="cadastro.php" method="get">
+<label for="iest">Estado</label>
+     <select name="estado" id="iest">
+
+          <option value="" selected>---Escolha---</option>
+          <optgroup label="Região Sudeste">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+          </optgroup>
+
+          <optgroup label="Região Nordeste">
+                <option value="AL">Alagoas</option>
+                <option value="SE">Sergipe</option>
+          </optgroup>
+     </select>
+</form>
+Acima um código para selecionar estado utilizando a tag <option> para selecionar 
+e <optgroup> para agrupar tag option.
+------------------------------------------------------------------------------------------------------------------------------------------------
+tag <select> também pode ser utilizada para que o usuário consiga selecionar o grupo na qual ele pertence. 
+para isso precisa envelopar as tags <optgroup> com uma <select>.
+------------------------------------------------------------------------------------------------------------------------------------------------
+<label for="iprof">Profissão:</label>
+   <input type="text" name="prof" id="iprof" list="lstprof">
+   <datalist id="lstprof">
+       <option value="ADM">Administrador</option>
+       <option value="DEV">Desenvolvedor</option>
+       <option value="Prof">Professor</option>
+       <option value="MKT">Marketing</option>
+   </datalist>
+<datalist> uma tag para abrir uma select como o exemplo dado acima. 
+Caso queira abrir de fato uma lista no estilo select precisa aplicar um id a tag <datalist> e aplicar no input o id dentro do elemento "list".
+O usuário consegue digitar a sua profissão mesmo que não esteja na listagem abaixo.
+------------------------------------------------------------------------------------------------------------------------------------------------
+<label for="imsg">Mensagem:</label> <br>
+<textarea name="msg" id="imsg" cols="30" rows="10">
+</textarea>
+Novo elemento é <textarea> uma área de texto para que o usuário deixe sua opnião sobre o produto ou site. 
+Uma mensagem para os desenvolvedores. É importante que o form esteja no method="post" para que seja enviado com sucesso sem erro algum.
+placeholder="Digite sua mensagem" = placeholder para deixar uma mensagem de indicação para facilitar a vida do usuário. 
+Uma mensagem transparente dentro da caixa de texto. 
