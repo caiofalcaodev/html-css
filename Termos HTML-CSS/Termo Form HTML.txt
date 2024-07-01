@@ -39,7 +39,6 @@ expressões determina o valor a ser preenchido como por exemplo telefone.
 Código acima exemplo para uma expressão regular para telefone.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
-
 Acima um elemento para parênteses e outra expressão
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 pattern="^\(\d{2}\)\d{4,5}-\d{4}$" = de 2dígitos a 4 ou 5 dígitos a 4 dígitos
@@ -87,3 +86,14 @@ value = utilizado para determinar o valor, se for utilizado em formulário ele j
    </p>
 </form>
 ----------------------------------------------------------------------------------------------------------------------------------------------------
+<label for="icor">Cor:</label>
+          <input type="color" name="cor" id="icor" value="#00ff00"> 
+input:color acima
+-------------
+<label for="inivel">Nível de Satisfação</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5">
+input:range acima
+-------------
+input:color = para abrir um menu de cores
+input:range = para criar um seletor como exemplo nível de satisfação de 0-100, da pra personalizar.
+input:file = para criar um seletor para arquivos, fotos ou videos. Sempre utilizando o method="post" para que seja enviado sem erro.
