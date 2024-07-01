@@ -39,3 +39,61 @@ Novo elemento é <textarea> uma área de texto para que o usuário deixe sua opn
 Uma mensagem para os desenvolvedores. É importante que o form esteja no method="post" para que seja enviado com sucesso sem erro algum.
 placeholder="Digite sua mensagem" = placeholder para deixar uma mensagem de indicação para facilitar a vida do usuário. 
 Uma mensagem transparente dentro da caixa de texto. 
+------------------------------------------------------------------------------------------------------------------------------------------------
+Um pouco de JS:
+<form action="cadastro.php" method="post">
+        <p>
+            <label for="in1">Número 1:</label>
+            <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        
+        <p>
+            <label for="1n2">Número 2:</label>
+            <input type="number" name="n2" id="in2" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+</form>
+-----
+<output> elemento atribuído para mostrar uma soma, não envia para nenhum banco de dados, serve somente para visualização de algo.
+-----
+oninput="isoma.innerHTML =                                                  Number(in1.value) + Number(in2.value)"
+isoma id informada.innerHTML informando que o dado é para HTML igual a Number selecionando que é um número. entre parênteses in1 id para a caixa do número 
++ Number(in2.value)
+. value = atribuir um valor a caixa + a outra caixa também definida por outra id da class number.
+Tudo sendo apenas mostrado no <output>
+------------
+Exemplo para output:
+<label for="inun">Número:</label>
+<input type="range" name="nun" id="inun" min="0" max="10" value="5" oninput="ival.innerHTML = Number(inun.value)">
+<output id="ival">5</output>
+------
+Mais um exemplo dessa vez utilizando uma função em JS:
+<form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iano">Em que ano você nasceu?</label> <br>
+            <input type="number" name="ano" id="iano" min="1900" max="2024" value="2000" oninput="calcIdade()">
+        </p> 
+
+        <p>
+            <label for="iidade">Sua idade:</label>
+            <output id="iidade">0</output>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+</form>
+
+<script>
+     function calcIdade() {
+        let atual = new Date().getFullYear()
+        iidade.innerHTML = Number(atual) - Number (iano.value)
+     }
+</script>
