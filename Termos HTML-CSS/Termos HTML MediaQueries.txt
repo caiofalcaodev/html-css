@@ -1,0 +1,4 @@
+Termos HTML MediaQueries
+-
+Formatos para adaptar sites a diferentes tamanhos de tela e 
+isso vai tanto de TV a impressão a papel.
