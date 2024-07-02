@@ -45,5 +45,28 @@ uma única CSS, porém é recomendado utilizar separadamente para uma boa organi
 -
 Mobile First é uma forma de criar sites acessiveis para dispositivos moveis, primeiro se cria 
 o site dedicado a mobile, depois adapta para telas maiores. O foco é aplicado ao mobile primeiro.
+-
+Device Breakpoints 
+ Typical Device Breakpoints W3C
+Pequenas telas: até 600px
+Celular: 600px-768px
+Tablet: 768px-992px
+Desktop: 952px até 1920px
+Grandes telas: acima de 1200px
+-
+Abaixo formato para definir uma Query:
 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url('../imagens/back-pc.jpg');
+    }
+    img#phone { display: none; }
 
+    img#tablet { display: none; }
+
+    img#print { display: none; }
+
+    img#pc { display: block; }
+
+    img#tv { display: none; }
+}
