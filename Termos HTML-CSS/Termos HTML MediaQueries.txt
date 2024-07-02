@@ -42,6 +42,8 @@ media="screen and (orientation:portrait) para retrato
 }
 Acima uma forma de utilizar media orientation dentro de 
 uma única CSS, porém é recomendado utilizar separadamente para uma boa organização de código.
-
+-
+Mobile First é uma forma de criar sites acessiveis para dispositivos moveis, primeiro se cria 
+o site dedicado a mobile, depois adapta para telas maiores. O foco é aplicado ao mobile primeiro.
 
 
