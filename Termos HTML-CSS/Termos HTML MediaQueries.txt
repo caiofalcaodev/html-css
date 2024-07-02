@@ -26,6 +26,22 @@ Exemplo de como informar um MediaFeature:
 Orientation para orientar de acordo com a posição se visto para um smartphone
 media="screen and (orientation: landscape) para paisagem
 media="screen and (orientation:portrait) para retrato
+-------------------------------------------------------------------------------------------------
+@media screen and (orientation: portrait) {
+   body {
+        background-image: url(../imagens/cev-portrait.jpg);
+        background-position: center bottom;
+     }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        background-image: url(../imagens/cev-landscape.jpg);
+        background-position: left bottom;
+    }
+}
+Acima uma forma de utilizar media orientation dentro de 
+uma única CSS, porém é recomendado utilizar separadamente para uma boa organização de código.
 
 
 
