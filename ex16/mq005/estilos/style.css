@@ -23,9 +23,8 @@ i#icone {
     background-color: rgb(48, 47, 47);
     color: white;
     display: block;
-    text-align: left;
+    text-align: center;
     padding: 10px;
-    width: 24px ;
 }
 
 i#icone:hover {
@@ -44,7 +43,6 @@ menu > ul {
 
 menu > ul > li > a {
     display: block;
-    width: 200px;
     padding: 10px;
     text-decoration: none;
     text-align: center;
