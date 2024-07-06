@@ -1,0 +1,14 @@
+<div id="d-email">
+                        <label for="iemail"></label>
+                        <input type="text" name="email" id="iemail" placeholder="seu e-mail" minlength="13" maxlength="25" autocomplete="email" required>
+                    </div>
+                    <div id="d-senha">
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" min="8" max="16" minlength="8" maxlength="16" required>
+                    </div>
+                    <div id="enter">
+                        <input type="submit" value="Entrar">
+                    </div>
+                    <div id="forget">
+                        <input type="reset" value="Esqueci a senha">
+                    </div>
