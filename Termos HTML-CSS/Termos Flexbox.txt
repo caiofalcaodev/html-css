@@ -1,2 +1,27 @@
 Flexbox:
 Uma caixa adaptavel, flexível. Tanto o conteiner(pai), quanto os itens(filhos).
+-----------------------------------------------------------------------------------------------------------------------------
+Direções e Eixos Flexbox para box pai
+Direções são caracterizadas por "flex-direction: ":
+row, row-reverse, colum e colum-reverse.
+Eixos são caracterizados por "main-axis e cross-axis":
+main-axis para row vai de direita para esquerda;
+main-axis para row-reverse vai de esquerda para direita;
+enquanto cross-axis nessas duas config continua de cima para baixo.
+main-axis para colum é de cima para baixo;
+main-axis para colum-reverse é de baixo para cima;
+cross-axis para colum fica na parte de cima da esquerda para direita;
+cross-axis para colum-reverse fica na parte de baixo também da esquerda para direita.
+-
+cross-start / cross-end: cross-start ponto de partida, cross-end ponto final da box.
+main-start / main-end: main-start ponto de partida, main-end ponto final da box.
+-----------------------------------------------------------------------------------------------------------------------------
+Empacotamento:
+flex-wrap, tag para definir o empacotamento dentro de uma flex-box.
+flex-wrap: nowrap; - já vem como padrão na div conteiner(pai), ela espreme o conteúdo dentro da div sem quebrar linha.
+flex-wrap: wrap; - quebra de linha o último conteúdo da div conteiner(pai) na direção da cross-axis.
+flex-wrap: wrap-reverse; - quebra de linha para o último conteúdo da div conteiner(pai) na direção oposta da cross-axis.
+Shorthand: flex-flow
+Ex:
+flex-flow: row nowrap;
+
