@@ -12,3 +12,16 @@
                     <div id="forget">
                         <input type="reset" value="Esqueci a senha">
                     </div>
+
+div.campo > input {
+    background-color: white;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+    transform: translateY(-12px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
+Função para CSS, calc para calcular width desejado em conjunto de translate
+y ou x para encaixar uma div num determinado espaço.

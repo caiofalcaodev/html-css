@@ -1,0 +1,2 @@
+Flexbox:
+Uma caixa adaptavel, flexível. Tanto o conteiner(pai), quanto os itens(filhos).
