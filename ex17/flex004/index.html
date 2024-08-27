@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner {
+            background-color: salmon;
+            height: 150px;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        div.iten {
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="iten"><input type="button" value="Exemplo de bloco: A"></input></div>
+        <div class="iten"><input type="button" value="Exemplo de bloco: B"></input></div>
+        <div class="iten"><input type="button" value="Exemplo de bloco: C"></input></div>
+        <div class="iten"><input type="button" value="Exemplo de bloco: D"></input></div>
+        <div class="iten"><input type="button" value="Exemplo de bloco: E"></input></div>
+        <div class="iten"><input type="button" value="Exemplo de bloco: F"></input></div>
+    </div>
+    
+</body>
+</html>
