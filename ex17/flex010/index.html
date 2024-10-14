@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner {
+            background-color: salmon;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.iten {
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 250px;
+        }
+        div#primeiro {
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+        div#segundo {
+            flex-grow: 2;
+            flex-shrink: 0;
+        }
+        div#terceiro {
+            flex-grow: 2;
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="iten" id="primeiro">A</div>
+        <div class="iten" id="segundo">B</div>
+        <div class="iten" id="terceiro">C</div>
+    </div>
+    
+</body>
+</html>

@@ -25,4 +25,12 @@ O elemento incluso no item pode quebrar, não é certo que ele continue no mesmo
 flex-shrink: 1 (vem como padrão) - shrink = encolher, caso esteja: flex-shrink: 0, o item não encolhe.
 flex-grow: 0 (vem como padrão) - grow = crescer, caso esteja: flex-grow: 0, o item não pode crescer.
 Dessa forma acima como padrão ele mantém os items de forma responsiva, caso diminua a janela os items encolhem, caso aumente eles permanecem da mesma forma,
-podendo crescer caso eu determine flex-grow: 1.
+podendo crescer caso eu determine flex-grow: 1. Essas tags podem ser aplicadas para id ou class separadas.
+-
+flex-grow - O crescimento do item é baseado em proporção, por exemplo items estando configurado como grow: 1, grow: 2, o segundo item vai crescer o dobro da 
+proporção do anterior, por ordem e proporção mesmo. Caso exista por exemplo items: grow: 2 e grow: 2, a proporção é a mesma, eles cresceram por igual seguindo a lógica.
+Lembrando que não é uma "ordem" e sim uma lógica caso estejam distribuidos no mesmo container.
+-
+flex-shrink - O mesmo exemplo para shrink, se temos três items: shrink: 2, shrink: 0, shrink: 1 - O primeiro item vai diminuir o dobro que o terceiro item, somente por questão 
+de lógica, se o número é maior ele vai dobrará o efeito.
+
