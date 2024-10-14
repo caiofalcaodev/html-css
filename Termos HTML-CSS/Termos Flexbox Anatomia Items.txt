@@ -1,0 +1,28 @@
+Anatomia Flex Items:
+-
+Order - mudar ordem dos elementos de acordo com alguma função.
+Todo item que estiver dentro do conteiner tem = order: 0 
+div#i1 {
+    order: 0;
+}
+div#i2 {
+    order: -2;
+}
+-
+Align-self - se aplica aos items e vai ser aplicado diretamente na cross-axis
+Auto: vai configurar o alinhamento de acordo com o elemento-pai.
+Flex-start: alinhamento colado a cross-start
+Flex-end: alinhamento colado a cross-end
+Center: no meio a cross-start / cross-end
+Stretch: esticar o elemento de acordo com a posição da cross-axis para ocupar o espaço inteiro.
+-
+Flex-basis - se aplica aos items para determinar o espaçamento para que dessa forma fique mais organizado.
+Sempre vem configurado para auto, porém é possivel incluir pixels para a largura ficar igual para todos caso algum item tenha bastante texto.
+Da também para reduzir o comprimento de um item em especifico adicionando a flex-basis dentro da id do mesmo.
+Ex: flex-basis: 200px
+O elemento incluso no item pode quebrar, não é certo que ele continue no mesmo tamanho. Para manter precisa de duas propriedades.
+-
+flex-shrink: 1 (vem como padrão) - shrink = encolher, caso esteja: flex-shrink: 0, o item não encolhe.
+flex-grow: 0 (vem como padrão) - grow = crescer, caso esteja: flex-grow: 0, o item não pode crescer.
+Dessa forma acima como padrão ele mantém os items de forma responsiva, caso diminua a janela os items encolhem, caso aumente eles permanecem da mesma forma,
+podendo crescer caso eu determine flex-grow: 1.

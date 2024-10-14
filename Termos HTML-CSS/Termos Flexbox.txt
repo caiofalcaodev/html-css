@@ -1,6 +1,6 @@
 Flexbox:
 Uma caixa adaptavel, flexível. Tanto o conteiner(pai), quanto os itens(filhos).
------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 Direções e Eixos Flexbox para box pai
 Direções são caracterizadas por "flex-direction: ":
 row, row-reverse, colum e colum-reverse.
@@ -15,7 +15,7 @@ cross-axis para colum-reverse fica na parte de baixo também da esquerda para di
 -
 cross-start / cross-end: cross-start ponto de partida, cross-end ponto final da box.
 main-start / main-end: main-start ponto de partida, main-end ponto final da box.
------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 Empacotamento:
 flex-wrap, tag para definir o empacotamento dentro de uma flex-box.
 flex-wrap: nowrap; - já vem como padrão na div conteiner(pai), ela espreme o conteúdo dentro da div sem quebrar linha.
@@ -24,7 +24,7 @@ flex-wrap: wrap-reverse; - quebra de linha para o último conteúdo da div conte
 Shorthand: flex-flow
 Ex:
 flex-flow: row nowrap;
-------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 Justify-content / main-axis
 justify-content: alinha de acordo com o main-axis
 justify-content: flex-start ou flex-end - os itens vão colar de acordo com o que denominar, end para o final deixando um espaço 
@@ -32,10 +32,21 @@ aberto no inicio, ou start para o inicio deixando espaço vago para o final. Tud
 justify-content: center - alinha para o centro da main-axis.
 justify-content: space-between - mantém os itens separados, centralizados porém colado nas pontas da main-axis.
 justify-content: space-evenly - mantém não tão separados e isso equivale as pontas das main-axis.
-justiafy-content: space-around - quase identico ao space-evenly porém o espaçamento é ainda mais reduzido para as pontas.
-------------------------------------------------------------------------------------------------------------------------------
+justify-content: space-around - quase identico ao space-evenly porém o espaçamento é ainda mais reduzido para as pontas.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 Align-items / cross-axis
 align-items: stretch - para que mantenha a opção de esticar os items conforme existe na div. 
 align-items: flex-start/flex-end - para que os items fiquem colados na cross-start, deixando o espaço vago.
 align-items: center - para que os tems fiquem no centro da cross-axis.
+-
+Align-content / a dimensão para o tamanho da cross-axis / flex-flow: row-wrap - wrap-reverse
+align-content: stretch - Já vem como pré selecionado, quebra as caixas e estica para que encaixe perfeitamente na div.
+align-content: flex-start - que todo conteúdo seja selecionado para o cross-start 
+align-content: center - centralizar todo conteúdo com espaçamento para start e end 
+align-content: space-between:  divide a tela para que os primeiros elementos fiquem na cross-start e os últimos na cross-end 
+enquanto o meio pode ficar vago ou preenchido caso tenha demais conteúdos.
+align-content: space-evenly - seleciona para que os primeiros items para cima porém com um curto espaço da cross-start da mesma 
+forma com a cross-end.
+align-content: space-around - marca uma área dentro da div e centraliza os items por igual dentro das áreas criadas, porém não estica os items.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
